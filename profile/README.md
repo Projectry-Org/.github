@@ -111,7 +111,7 @@ flowchart TD
     API --> Auth["🔐 Authentication & Users"]
     API --> Catalog["📦 Projects & Catalog"]
     API --> Payments["💳 Payments & Orders"]
-    Auth --> DB[("🗄️ PostgreSQL")]
+    Auth --> DB[("🗄️ MongoDB")]
     Catalog --> DB
     Payments --> DB
     DB --> Assets["☁️ Digital Assets<br/>Storage & Delivery"]
@@ -141,7 +141,7 @@ flowchart TD
 
 **Data & Infrastructure**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F172A?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![MongoDB](https://img.shields.io/badge/MongoDB-0F172A?style=for-the-badge&logo=mongodb&logoColor=4DB33D)
 ![Docker](https://img.shields.io/badge/Docker-0F172A?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Git](https://img.shields.io/badge/Git-0F172A?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=ffffff)
